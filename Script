@@ -185,7 +185,7 @@ RadiusCorner.Parent = RadiusDisplay
 local Watermark = Instance.new("TextLabel")
 Watermark.Size = UDim2.new(1, 0, 0, 20)
 Watermark.Position = UDim2.new(0, 0, 1, -20)
-Watermark.Text = "Super Ring [V4] by lukas"
+Watermark.Text = "Black Hole [V4] by TheR1vers1vE"
 Watermark.TextColor3 = Color3.fromRGB(255, 255, 255) -- Dark brown
 Watermark.BackgroundTransparency = 1
 Watermark.Font = Enum.Font.Fondamento
@@ -265,7 +265,6 @@ UserInputService.InputChanged:Connect(function(input)
     end
 end)
 
--- Ring Parts Logic
 if not getgenv().Network then
     getgenv().Network = {
         BaseParts = {},
