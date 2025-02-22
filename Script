@@ -105,7 +105,7 @@ ScreenGui.DisplayOrder = 999999
 local MainFrame = Instance.new("Frame")
 MainFrame.Size = UDim2.new(0, 220, 0, 190)
 MainFrame.Position = UDim2.new(0.5, -110, 0.5, -95)
-MainFrame.BackgroundColor3 = Color3.fromRGB(204, 0, 0) -- Light brown
+MainFrame.BackgroundColor3 = Color3.fromRGB(75, 0, 130) -- Light brown
 MainFrame.BorderSizePixel = 0
 MainFrame.Parent = ScreenGui
 
