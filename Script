@@ -100,6 +100,7 @@ local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "SuperRingPartsGUI"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.DisplayOrder = 999999
 
 local MainFrame = Instance.new("Frame")
 MainFrame.Size = UDim2.new(0, 220, 0, 190)
